@@ -8,6 +8,6 @@ module Foo {
 }
 
 say "Foo.HOW      : ", Foo.HOW.^name;
-say "WHICH        : ", (Foo::).WHICH;
-say "WHO          : ", Foo.WHO.WHICH;
+say "Foo::.WHICH  : ", (Foo::).WHICH;
+say "Foo.WHO.WHICH: ", Foo.WHO.WHICH;
 say "Stash Parents: ", Foo::.^parents;
