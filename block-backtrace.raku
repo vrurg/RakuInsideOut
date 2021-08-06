@@ -13,6 +13,7 @@ sub dump-ctx {
         last unless $ctx;
     }
     $ctx = CALLER::;
+    $frame = 0;
     say "  - call stack:";
     loop {
         say "    ", $frame++, ". ", $ctx.keys.sort.join(", ");
