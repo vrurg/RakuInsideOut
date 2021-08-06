@@ -6,7 +6,7 @@
     cd $HOME/src/Raku
     git clone https://github.com/rakudo/rakudo.git
     cd rakudo
-    ./Configure.pl --gen-moar --gen-nqp --backends=moar —make-install
+    perl ./Configure.pl --gen-moar --gen-nqp --backends=moar —make-install
 
 ## Use `rakubrew` for managing rakudo versions
 
