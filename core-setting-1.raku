@@ -1,5 +1,5 @@
-#use v6.c;
-use v6.d;
+use v6.c;
+#use v6.d;
 #use v6.e.PREVIEW;
 
 # CORE-SETTING-REV
