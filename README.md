@@ -28,3 +28,7 @@ To switch to our custom build Rakudo:
 
     $ rakubrew switch build
 
+Installing `zef` for the current Rakudo version (including our `build`):
+
+    $ rakubrew build zef
+
